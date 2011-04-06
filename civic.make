@@ -23,6 +23,12 @@ projects[admin][version] = 2.0
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = 1.2
 
+projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][version] = 1.2
+
+projects[captcha][subdir] = "contrib"
+projects[captcha][version] = 2.4
+
 projects[cck][subdir] = "contrib"
 projects[cck][version] = 2.8
 
@@ -90,6 +96,9 @@ projects[mailchimp][version] = 2.2
 projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = 2.9
 
+projects[nodereference_url][subdir] = "contrib"
+projects[nodereference_url][version] = 1.6
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = 1.5
 
@@ -129,6 +138,9 @@ projects[video_filter][version] = 2.7
 projects[views][subdir] = "contrib"
 projects[views][version] = 2.12
 
+projects[views_bonus][subdir] = "contrib"
+projects[views_bonus][version] = 1.1
+
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = 1.10
 
@@ -162,7 +174,7 @@ projects[simpletest][subdir] = "developer"
 projects[civic_features][type] = "module"
 projects[civic_features][download][type] = "git" 
 projects[civic_features][download][url] = "git://github.com/bhirsch/civic_features.git"
-projects[civic_features][download][tag] = "6.x-1.0"
+projects[civic_features][download][tag] = "s4a-6.x-1.0"
 
 ; Custom 
 ; ------
@@ -277,6 +289,12 @@ projects[statehouse][directory_name] = "statehouse"
 projects[statehouse][download][type] = "git"
 projects[statehouse][download][url] = "git://github.com/bhirsch/statehouse.git"
 projects[statehouse][download][tag] = "6.x-1.0"
+
+projects[strongforall][type] = "theme"
+projects[strongforall][directory_name] = "strongforall"
+projects[strongforall][download][type] = "git"
+projects[strongforall][download][url] = "git://github.com/bhirsch/strongforall.git"
+; projects[strongforall][download][tag] = "6.x-1.0"
 
 ; Libraries
 ; ---------
