@@ -232,6 +232,12 @@ projects[owhtranslate][download][type] = "git"
 projects[owhtranslate][download][url] = "git://github.com/bhirsch/owhtranslate.git"
 ; projects[owhtranslate][download][tag] = "X.X"
 
+projects[pagerblock][type] = "module"
+projects[pagerblock][subdir] = "custom"
+projects[pagerblock][download][type] = "git"
+projects[pagerblock][download][url] = "git://github.com/bhirsch/pagerblock.git"
+; projects[pagerblock][download][tag] = "X.X"
+
 projects[related_posts][type] = "module"
 projects[related_posts][subdir] = "custom"
 projects[related_posts][download][type] = "git"
