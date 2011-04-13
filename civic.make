@@ -317,19 +317,6 @@ projects[whitehouse][download][type] = "git"
 projects[whitehouse][download][url] = "git://github.com/bhirsch/whitehouse.git"
 projects[whitehouse][download][tag] = "6.x-1.2"
 
-
-projects[strongforall][type] = "theme"
-projects[strongforall][directory_name] = "strongforall"
-projects[strongforall][download][type] = "git"
-projects[strongforall][download][url] = "git://github.com/bhirsch/strongforall.git"
-; projects[strongforall][download][tag] = "6.x-1.1"
-
-projects[strongforall][type] = "theme"
-projects[strongforall][directory_name] = "strongforall"
-projects[strongforall][download][type] = "git"
-projects[strongforall][download][url] = "git://github.com/bhirsch/strongforall.git"
-; projects[strongforall][download][tag] = "6.x-1.0"
-
 ; Libraries
 ; ---------
 libraries[ckeditor][download][type] = "get"
