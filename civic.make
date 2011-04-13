@@ -139,7 +139,7 @@ projects[views][subdir] = "contrib"
 projects[views][version] = 2.12
 
 projects[views_bonus][subdir] = "contrib"
-projects[views_bonus][version] = 1.1
+; projects[views_bonus][version] = X
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = 1.10
@@ -174,7 +174,8 @@ projects[simpletest][subdir] = "developer"
 projects[civic_features][type] = "module"
 projects[civic_features][download][type] = "git" 
 projects[civic_features][download][url] = "git://github.com/bhirsch/civic_features.git"
-projects[civic_features][download][tag] = "s4a-6.x-1.0"
+; projects[civic_features][download][tag] = "6.x-1.1"
+projects[civic_features][download][branch] = "s4a"
 
 ; Custom 
 ; ------
@@ -226,6 +227,12 @@ projects[nodequeue_front_page_main][download][type] = "git"
 projects[nodequeue_front_page_main][download][url] = "git://github.com/bhirsch/nodequeue_front_page_main.git"
 ; projects[nodequeue_front_page_main][download][tag] = ""
 
+projects[pagerblock][type] = "module"
+projects[pagerblock][subdir] = "custom"
+projects[pagerblock][download][type] = "git"
+projects[pagerblock][download][url] = "git://github.com/bhirsch/pagerblock.git"
+; projects[pagerblock][download][tag] = "6.x-1.3"
+
 projects[owhtranslate][type] = "module"
 projects[owhtranslate][subdir] = "custom"
 projects[owhtranslate][download][type] = "git"
@@ -244,17 +251,25 @@ projects[related_posts][download][type] = "git"
 projects[related_posts][download][url] = "git://github.com/bhirsch/related_posts.git"
 projects[related_posts][download][tag] = "6.x-1.0"
 
+projects[mtheme][type] = "module"
+projects[mtheme][subdir] = "custom"
+projects[mtheme][download][type] = "git"
+projects[mtheme][download][url] = "git://github.com/bhirsch/mtheme.git"
+projects[mtheme][download][tag] = "6.x-1.0-alpha4"
+; projects[mtheme][download][branch] = "6.x-1.x"
+
 projects[subtheme][type] = "module"
 projects[subtheme][subdir] = "custom"
 projects[subtheme][download][type] = "git"
 projects[subtheme][download][url] = "git://github.com/bhirsch/subtheme.git"
-projects[subtheme][download][tag] = "6.x-0.0"
+projects[subtheme][download][tag] = "6.x-1.0-alpha5"
+; projects[subtheme][download][branch] = "6.x-1.x"
 
 projects[sws][type] = "module"
 projects[sws][subdir] = "custom"
 projects[sws][download][type] = "git"
 projects[sws][download][url] = "git://github.com/bhirsch/sws.git"
-projects[sws][download][tag] = "6.x-1.0"
+projects[sws][download][tag] = "6.x-1.3"
 
 projects[sws_fields][type] = "module"
 projects[sws_fields][subdir] = "custom"
@@ -280,12 +295,6 @@ projects[user1][download][type] = "git"
 projects[user1][download][url] = "git://github.com/bhirsch/user1.git"
 projects[user1][download][tag] = "6.x-1.0"
 
-projects[whitehouse_subtheme][type] = "module"
-projects[whitehouse_subtheme][subdir] = "custom"
-projects[whitehouse_subtheme][download][type] = "git"
-projects[whitehouse_subtheme][download][url] = "git://github.com/bhirsch/whitehouse_subtheme.git"
-projects[whitehouse_subtheme][download][tag] = "6.x-1.0"
-
 ; Themes
 ; ------
 projects[rubik][download][type] = "get"
@@ -306,19 +315,14 @@ projects[whitehouse][type] = "theme"
 projects[whitehouse][directory_name] = "whitehouse"
 projects[whitehouse][download][type] = "git"
 projects[whitehouse][download][url] = "git://github.com/bhirsch/whitehouse.git"
-projects[whitehouse][download][tag] = "6.x-1.0"
+projects[whitehouse][download][tag] = "6.x-1.2"
 
-projects[candidate][type] = "theme"
-projects[candidate][directory_name] = "candidate"
-projects[candidate][download][type] = "git"
-projects[candidate][download][url] = "git://github.com/bhirsch/candidate.git"
-projects[candidate][download][tag] = "6.x-1.0"
 
-projects[statehouse][type] = "theme"
-projects[statehouse][directory_name] = "statehouse"
-projects[statehouse][download][type] = "git"
-projects[statehouse][download][url] = "git://github.com/bhirsch/statehouse.git"
-projects[statehouse][download][tag] = "6.x-1.0"
+projects[strongforall][type] = "theme"
+projects[strongforall][directory_name] = "strongforall"
+projects[strongforall][download][type] = "git"
+projects[strongforall][download][url] = "git://github.com/bhirsch/strongforall.git"
+; projects[strongforall][download][tag] = "6.x-1.1"
 
 projects[strongforall][type] = "theme"
 projects[strongforall][directory_name] = "strongforall"
