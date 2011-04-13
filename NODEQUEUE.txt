@@ -17,6 +17,7 @@ qid   title                                        size   owner
 4     Front Page Main                              1     nodequeue
 5     Front Page Slideshow (Panoramic 4)           6     nodequeue
 6     Front Page Slideshow (Panoramic 3)           1     nodequeue
+7     Recent Events                                3     nodequeue
 
 
 table: nodequeue_queue
